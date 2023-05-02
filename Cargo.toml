@@ -6,6 +6,7 @@ authors = ["David Dobrovolný"]
 license = "MIT"
 description = "Micro-tuning format parsing and frequency finding library."
 readme = "README.md"
+repository = "https://github.com/DavidDobrovolny/tuning-library-rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
