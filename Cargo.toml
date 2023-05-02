@@ -1,0 +1,16 @@
+[package]
+name = "tuning-library-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["David Dobrovolný"]
+license = "MIT"
+description = "Micro-tuning format parsing and frequency finding library."
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", optional = true, features = ["derive"] }
+
+[dev-dependencies]
+rand = "0.8.5"
