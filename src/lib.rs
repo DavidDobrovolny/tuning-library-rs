@@ -519,7 +519,7 @@ pub struct KeyboardMapping {
 
     /// Mapped keys. Rather than an 'x', we use a '-1' for skipped notes (this should use Option or
     /// similar).
-    pub keys: Vec<i32>,
+    pub keys: Vec<i32>, // TODO: use Option
 
     /// Raw text of the KBM file.
     pub raw_text: String,
